@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js"></script> 
-    <title>Documento</title>
-    </head>
+    <title>Casa de cambio</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-    <h1>EL clima </h1>
+    <h3>Casa de cambio</h3>
+    <form class="Formulario">
+        <p>Seleccionar moneda a enviar</p>
+        <input type="radio" name="cambio" id="uno">Dolar
+        <input type="radio" name="cambio" id="dos">Euro
+        <p>Ingrese el monto en pesos:</p>
+        <input type="number" id="valor" min="1" max="100000">
+        <br>
+        <br>
+        <input type="button" id="cotizador" value="Cotizar" onclick="convertir()"> 
+    </form>
 </body>
 </html>
