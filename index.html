@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa de cambio</title>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Dev JZC</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h3>Casa de cambio</h3>
-    <form class="Formulario">
-        <p>Seleccionar moneda a enviar</p>
-        <input type="radio" name="cambio" id="uno">Dolar
-        <input type="radio" name="cambio" id="dos">Euro
-        <p>Ingrese el monto en pesos:</p>
-        <input type="number" id="valor" min="1" max="100000">
-        <br>
-        <br>
-        <input type="button" id="cotizador" value="Cotizar" onclick="convertir()"> 
-    </form>
+	<header>
+		<h1>Hola bienvenido a la tienda Dev JZC</h1>
+	</header>
+	<main>
+		<section id="items">
+			<!--PRODUCTOS-->
+			
+		</section>
+		<aside>
+			<h2>Carrito</h2>
+			<ul id="carrito"></ul>
+			<p>Total: <span id="total">0</span></p>
+			<button id="boton-vaciar">Vaciar</button>
+		</aside>
+	</main>
+	<footer>
+		<p>Todos los derechos reservados &copy; 2023</p>
+	</footer>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
+
