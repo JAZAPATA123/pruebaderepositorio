@@ -4,14 +4,14 @@ const baseDeDatos = [
 		id: 1,
 		nombre: 'Desarrollo de página web',
 		precio: 500,
-		imagen: 'producto1.jpg',
+		imagen: 'https://th.bing.com/th/id/R.8197f51a7c6dfa66582da327d74bf8e4?rik=SjSkCD%2bs92xQtw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f4%2fWorld-Wide-Web-PNG-Image-File-180x180.png&ehk=vNZdccd6BnOthUxUOHnLzy4kzkzZNXUmWQUb58N3shI%3d&risl=&pid=ImgRaw&r=0',
         estilo: 'producto1'
 	},
 	{
 		id: 2,
 		nombre: 'Diseño gráfico',
 		precio: 300,
-		imagen: 'producto2.jpg',
+		imagen: 'https://th.bing.com/th/id/R.f9ff167cc78340de32c39460511c1399?rik=vW6yoCgfMhnQnQ&riu=http%3a%2f%2fwww.icone-png.com%2fpng%2f6%2f6408.png&ehk=POE4wcZMOsXacuwBRrefo%2fN4IrXsNZ7N2aeGrUA1KmE%3d&risl=&pid=ImgRaw&r=0',
         estilo: 'producto2'
 
 	},
@@ -19,7 +19,7 @@ const baseDeDatos = [
 		id: 3,
 		nombre: 'Desarrollo de aplicación móvil',
 		precio: 800,
-		imagen: 'producto3.jpg',
+		imagen: 'https://5.imimg.com/data5/IQ/NS/MY-1937462/mobile-app-development-500x500.png',
         estilo: 'producto3'
 
 	}
